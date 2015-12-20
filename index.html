@@ -1,59 +1,188 @@
-<!DOCTYPE html>
+<!-- author: plasmashadow -->
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+<head>
+  <title> Hello, sir/madam </title>
+  <link rel="stylesheet" type="text/css" href="//bootswatch.com/journal/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <style>
+    html,
+    body {
+      height: 100%;
+    }
+  </style>
 
-    <title>Sathya Narrayanan by plasmashadow</title>
-  </head>
+</head>
 
-  <body>
+<body>
+  <!--scripts -->
+  <script src="js/libs/jquery-1.11.3.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- end of includes -->
 
-    <header>
-      <div class="container">
-        <h1>Sathya Narrayanan</h1>
-        <h2>open source enthusiast</h2>
+  <nav id="body-nav" class="navbar navbar-default navbar-static" role="navigation">
 
-        <section id="downloads">
-          <a href="https://github.com/plasmashadow" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-js-navbar-scrollspy">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
 
-    <div class="container">
-      <section id="main_content">
-        <p>Hi, I am sathya, I use to most of my time hacking open source projects. I am the author of projects such as</p>
-
-<ul>
-<li><a href="https://github.com/RevelutionWind/MDB">Mongo Models</a></li>
-<li><a href="https://github.com/plasmashadow/numsys">NumSys</a></li>
-<li><a href="https://github.com/plasmashadow/pyhttp">PyHttp</a></li>
-</ul>
-
-<p>Most of my work are based on python, node.js, c/c++.</p>
-
-<h2>
-<a id="what-i-work-on-" class="anchor" href="#what-i-work-on-" aria-hidden="true"><span class="octicon octicon-link"></span></a>What I work on ?</h2>
-
-<ol>
-<li>websockets.</li>
-<li>webrtc.</li>
-<li>Mathematics.</li>
-</ol>
-
-<h2>
-<a id="across-the-web" class="anchor" href="#across-the-web" aria-hidden="true"><span class="octicon octicon-link"></span></a>Across the Web</h2>
-
-<ul>
-<li><a href="plasmashadowx@gmail.com">Email</a></li>
-</ul>
-      </section>
+      <a class="navbar-brand" href="#">Sathya Narrayanan</a>
     </div>
 
-    
-  </body>
+    <div class="collapse navbar-collapse bs-js-navbar-scrollspy">
+      <ul class="nav navbar-nav pull-right">
+        <li><a href="#about" class="active">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+  </nav>
+  <div class="container-fluid">
+    <div class="jumbotron" style="text-align:center; margin: 0 0 0 0; border: 0px">
+      <img src="//goo.gl/LwcZPf" style="width: 30%;height:35%; float:left"></img>
+      <!-- <img src="/images/me," style="width: 30%;height:35%; float:left"></img> -->
+      <h1>Hi! I'M Sathya</h1>
+      <p>Nice to see you guys</p>
+      <p><a class="btn btn-primary btn-lg">Contact Me</a></p>
+    </div>
+
+    <div class="well" data-spy="scroll" data-target="#body-nav" data-offset="0" style="border:0px; background: #eeeeee">
+
+      <div id="about">
+        <h2>ABOUT ME</h2>
+        <p>
+          <em> uhhup! Lets see </em>
+          I'm a software engineer, Who likes to work on challenging Problems come up with a solution which is more efficient as well as appropriate for that problem.
+          <br> And ofcourse a Opensource Enthusist.
+        </p>
+      </div>
+
+      <div id="projects">
+        <h2>PROJECTS</h2>
+        <div class="list-group">
+          <a href="https://github.com/plasmashadow/MDB" class="list-group-item">
+            <h4 class="list-group-item-heading">Mondb</h4>
+            <p class="list-group-item-text">
+              An ODM for mongodb to perform CRUD Operations writtern in python.
+            </p>
+          </a>
+          <a href="https://github.com/plasmashadow/pycache" class="list-group-item">
+            <h4 class="list-group-item-heading">PyCache</h4>
+            <p class="list-group-item-text">
+              A InMemory caching utility used to store the results of already computed operations.
+            </p>
+          </a>
+          <a href="https://github.com/plasmashadow/pylocated" class="list-group-item">
+            <h4 class="list-group-item-heading">Pylocated</h4>
+            <p class="list-group-item-text">
+              A python wrapper for locatedb.
+            </p>
+          </a>
+          <a href="https://github.com/plasmashadow/taskqueue" class="list-group-item">
+            <h4 class="list-group-item-heading">Taskqueue.js</h4>
+            <p class="list-group-item-text">
+              A nodejs mockup of appengine taskqueue written with kue and redis.
+            </p>
+          </a>
+          <a href="https://github.com/plasmashadow/yql" class="list-group-item">
+            <h4 class="list-group-item-heading">YQL</h4>
+            <p class="list-group-item-text">
+              An api client library for yahoo query language written in python.
+            </p>
+          </a>
+          <a href="https://github.com/plasmashadow/Ajaxy-Websockets" class="list-group-item">
+            <h4 class="list-group-item-heading">Ajaxy-Websockets</h4>
+            <p class="list-group-item-text">
+              Gracefully degrade to Ajax requests if websockets are not available.
+            </p>
+          </a>
+          <a href="https://github.com/plasmashadow/python-bencode" class="list-group-item">
+            <h4 class="list-group-item-heading">python-bencode</h4>
+            <p class="list-group-item-text">
+              A B-Encoding and decoding library for python.
+            </p>
+          </a>
+        </div>
+        <h2> WebApps </h2>
+        <div class="list-group">
+          <a href="https://github.com/Strawhatspirates/apibot" class="list-group-item">
+            <h4 class="list-group-item-heading">Apibot</h4>
+            <p class="list-group-item-text">
+              A Place to store web-api documentation.
+            </p>
+          </a>
+          <a href="https://github.com/Strawhatspirates/pdfmyurl" class="list-group-item">
+            <h4 class="list-group-item-heading">pdfmyurl</h4>
+            <p class="list-group-item-text">
+              A simple service that converts the given url contents to pdf. Built on top of appengine python.
+            </p>
+          </a>
+          <a href="https://github.com/Strawhatspirates/arena" class="list-group-item">
+            <h4 class="list-group-item-heading">Arena</h4>
+            <p class="list-group-item-text">
+              A webrtc multiuser chat using mongodb.
+            </p>
+          </a>
+          <a href="https://github.com/Strawhatspirates/support-india" class="list-group-item">
+            <h4 class="list-group-item-heading">Support-India</h4>
+            <p class="list-group-item-text">
+              A News Collector written with node.js express and python scrapy.
+            </p>
+          </a>
+        </div>
+      </div>
+
+      <div id="contact">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h3 class="panel-title">Contact</h3>
+          </div>
+          <div class="panel-body">
+            <form role="form" style="color:black">
+              <div class="form-group">
+                <label for="email">From:</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Subject:</label>
+                <input type="text" class="form-control" id="subject">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Message:</label>
+                <textarea class="form-control" id="description" rows="5"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send It!</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer" style="text-align:center;margin-bottom: 20px; ">
+     <h5>Hope to see you soon</h5>
+  </footer>
+</body>
+
+<script type="text/javascript">
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-71635521-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
 </html>
